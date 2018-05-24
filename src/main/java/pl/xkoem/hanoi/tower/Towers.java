@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Towers {
 
-    List<Tower> towers;
+    private List<Tower> towers;
 
     public Towers(int amount) {
         createTowers(amount);

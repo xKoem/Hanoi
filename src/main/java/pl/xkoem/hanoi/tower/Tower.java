@@ -15,6 +15,7 @@ public class Tower {
     void add(Ring ring) {
         tower.add(ring);
     }
+
     Ring pop() {
         return tower.pop();
     }
