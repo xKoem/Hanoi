@@ -2,19 +2,21 @@ package pl.xkoem.hanoi.tower;
 
 import pl.xkoem.hanoi.ring.Ring;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
+import java.util.Stack;
 
 public class Tower {
 
-    private Queue<Ring> tower;
+    private Stack<Ring> tower;
 
     Tower() {
-        tower = new ArrayDeque<>();
+        tower = new Stack<>();
     }
 
-    public void add(Ring ring) {
+    void add(Ring ring) {
         tower.add(ring);
+    }
+    Ring pop() {
+        return tower.pop();
     }
 
     @Override

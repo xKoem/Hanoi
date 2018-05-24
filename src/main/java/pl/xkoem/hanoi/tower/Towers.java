@@ -33,4 +33,8 @@ public class Towers {
         Tower[] array = new Tower[towers.size()];
         return towers.toArray(array);
     }
+
+    public void move(int from, int to) {
+        towers.get(to).add(towers.get(from).pop());
+    }
 }
