@@ -1,3 +1,3 @@
 **Hanoi**
 -
-Hanoi problem solver *v1.0-SNAPSHOT*
+Hanoi problem solver *v1.0*

@@ -6,7 +6,7 @@
 
     <groupId>pl.xkoem</groupId>
     <artifactId>Hanoi</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <testng.version>6.14.3</testng.version>
